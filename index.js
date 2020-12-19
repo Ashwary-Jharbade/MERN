@@ -2,7 +2,7 @@ const express = require("express")
 const cors = require("cors")
 const mongoose= require("mongoose")
 
-const uri = "mongodb+srv://1234:1234@cluster0.kav3e.mongodb.net/sample_airbnb?retryWrites=true&w=majority";
+const uri = "";
 mongoose.connect(uri, {
   useNewUrlParser: true,
   useUnifiedTopology: true
