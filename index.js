@@ -10,7 +10,7 @@ app.use(express.urlencoded({
   extended:true
 }))
 
-const uri = "<your mongodb atlas db endpoint>";
+const uri = "";
 mongoose.connect(uri, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
